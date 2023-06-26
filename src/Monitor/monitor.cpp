@@ -26,12 +26,12 @@ extern OpenFontRender render;
 extern TFT_eSprite background;
 extern monitor_data mMonitor;
 
-extern int GMTzone; //Gotten from saved config
+extern int GMTzone; // Gotten from saved config
 
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
-unsigned int bitcoin_price=0;
-String current_block = "793261";
+NTPClient timeClient(ntpUDP, "pool.ntp.org", 3600, 60000);
+unsigned int bitcoin_price = 0;
+String current_block = "795950";
 global_data gData;
 
 void setup_monitor(void){

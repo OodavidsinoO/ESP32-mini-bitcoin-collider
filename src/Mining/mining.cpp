@@ -14,7 +14,7 @@
 #include "Monitor/monitor.h"
 
 unsigned long templates = 0;
-unsigned long hashes= 0;
+unsigned long hashes = 0;
 unsigned long Mhashes = 0;
 unsigned long totalKHashes = 0;
 unsigned long elapsedKHs = 0;

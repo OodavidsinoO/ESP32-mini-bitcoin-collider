@@ -1,9 +1,11 @@
 references
+logs
 
 .pio
-
 .vscode
 example/arduino/CST328touch
+tools/Image2Lcd
+
 # Prerequisites
 *.d
 
